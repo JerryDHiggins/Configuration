@@ -9,7 +9,6 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " plugin on GitHub repo
@@ -30,6 +29,7 @@ Plugin 'vim-scripts/Cpp11-Syntax-Support'
 Plugin 'justmao945/vim-clang'
 Plugin 'pangloss/vim-javascript'
 Plugin 'syntax/java'
+Plugin 'vim-scripts/google.vim'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -48,6 +48,11 @@ syntax on
 filetype indent plugin on
 set modeline
 set number
+
+set tabstop     =2
+set softtabstop =2
+set shiftwidth  =2
+
 colorscheme darkblue
 if has('gui_running')
   set guifont=Lucida_Console:h10
