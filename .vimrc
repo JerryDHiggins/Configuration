@@ -11,9 +11,8 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'justmao945/vim-clang'
 Plugin 'pangloss/vim-javascript'
-Plugin 'syntax/java'
 Plugin 'vim-scripts/google.vim'
-Plugin 'rhys/vim-clang-format'
+Plugin 'rhysd/vim-clang-format'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
